@@ -11,3 +11,4 @@ def balanced_paranthesis(output, open, close):
 if __name__ == "__main__":
     n = int(input())
     balanced_paranthesis("", n, n)
+    
