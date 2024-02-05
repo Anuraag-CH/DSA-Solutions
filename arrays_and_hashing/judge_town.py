@@ -1,4 +1,7 @@
-# https://leetcode.com/problems/find-the-town-judge/description/
+# https://leetcode.com/problems/find-the-town-judge
+
+import List
+
 
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
