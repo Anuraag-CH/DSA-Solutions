@@ -1,11 +1,14 @@
 # https://leetcode.com/problems/valid-anagram
 
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
 
+
 # Time complexity: O(nlogn)
 # Space complexity: O(n)
+
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -23,6 +26,7 @@ class Solution:
             else:
                 t_dict[t[i]] = 1
         return s_dict == t_dict
+
 
 # Time complexity: O(n)
 # Space complexity: O(n)
